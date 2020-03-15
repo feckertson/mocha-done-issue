@@ -1,0 +1,16 @@
+{
+  "name": "mocha-done-issue",
+  "version": "1.0.0",
+  "description": "Mocha stops recognizing asserts once done has been called.",
+  "main": "mocha-done-issue.js",
+  "scripts": {
+    "mocha": "mocha --recursive"
+  },
+  "author": "fred eckertson",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  },
+  "dependencies": {}
+}
