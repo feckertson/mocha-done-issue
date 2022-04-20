@@ -1,6 +1,7 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
+value: "starting value"
 labels: ["bug", "triage"]
 assignees:
   - octocat
@@ -21,9 +22,8 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Describe the steps performe, what did happpen and what should have happened.
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
