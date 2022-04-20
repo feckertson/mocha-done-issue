@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: ""
 labels: ["bug", "triage"]
 assignees:
   - octocat
@@ -21,8 +21,8 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Describe the steps performe, what did happpen and what should have happened.
-      placeholder: Tell us what you see!
+      description: Describe the steps performed, what did happpen and what should have happened.
+      placeholder: What steps were performed? What actually happened? What should have happened?
     validations:
       required: true
   - type: dropdown
